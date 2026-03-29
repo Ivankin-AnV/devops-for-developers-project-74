@@ -1,2 +1,2 @@
 ci:
-	docker compose -f docker-compose.yml build app
+	docker compose -f docker-compose.yml run --rm app make test
